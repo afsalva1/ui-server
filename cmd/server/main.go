@@ -51,7 +51,7 @@ func main() {
 func buildCLI() *cli.App {
 	app := cli.NewApp()
 	app.Name = "Temporal UI"
-	app.Usage = "https://github.com/temporalio/ui"
+	app.Usage = "https://github.com/afsalva1/ui"
 	app.Version = version.UIVersion
 	app.ArgsUsage = " "
 	app.Flags = []cli.Flag{
