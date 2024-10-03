@@ -50,7 +50,7 @@ jobs:
         uses: docker/metadata-action@v4
         if: github.event_name == 'release'
         with:
-          images: temporalio/ui
+          images: afsalva1/ui
           tags: |
             type=semver,pattern={{version}}
             latest
